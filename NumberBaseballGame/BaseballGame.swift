@@ -7,9 +7,23 @@
 
 import Foundation
 
-class NumberBaseballGame {
+class BaseballGame {
+    func start() {
+        let answer = randomNumbers()
+        
+        while true {
+            var input = readLine()
+            
+        }
+    }
     
-
+    func randomNumbers() -> [Int] {
+        var numbers = Set<Int>()
+        while numbers.count < 3 {
+            numbers.insert(Int.random(in: 1...9))
+        }
+        return Array(numbers)
+    }
 }
 
 
