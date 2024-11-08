@@ -31,3 +31,6 @@ import Foundation
 //let game = BaseballGame()
 //game.start()
 
+let gameNumber = GenerateNumber() // 난수 생성
+
+
