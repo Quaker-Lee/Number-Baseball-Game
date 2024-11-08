@@ -27,6 +27,7 @@ import Foundation
 //    }
 //}
 
-let game = BaseballGame()
 
+//let game = BaseballGame()
+//game.start()
 
