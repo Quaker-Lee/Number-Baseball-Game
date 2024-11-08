@@ -9,10 +9,14 @@ import Foundation
 
 class BaseballGame {
     func start() {
-        let answer = randomNumbers()
+        let userInput = randomNumbers()
         
         while true {
             var input = readLine()
+            
+            let userInput = String(input!).compactMap { Int(String($0)) }
+            
+//            userInputArray = userInput
             
         }
     }
