@@ -28,9 +28,10 @@ import Foundation
 //}
 
 
-//let game = BaseballGame()
-//game.start()
+let game = BaseballGame()
+game.start()
 
-let gameNumber = GenerateNumber() // 난수 생성
+//let gameNumber = GenerateNumber() // 난수 생성
+
 
 
