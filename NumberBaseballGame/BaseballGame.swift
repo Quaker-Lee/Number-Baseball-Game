@@ -24,7 +24,7 @@ class BaseballGame {
         //user input parts
         let input = readLine() ?? "" //유저 입력값 입력받음. 오류가 나서 nil이 들어오면 빈 문자열로 처리
         
-        //예외처리
+        //예외처리 구현해야함
         
         
         let stringArr = input.map { String($0) }.compactMap { Int($0) }
