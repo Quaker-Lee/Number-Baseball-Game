@@ -43,6 +43,11 @@
 			path = UserInput;
 			sourceTree = "<group>";
 		};
+		3BACA3562CDF136800856BC0 /* CheckInput */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CheckInput;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		3BACA3122CDB4FEC00856BC0 = {
 			isa = PBXGroup;
 			children = (
+				3BACA3562CDF136800856BC0 /* CheckInput */,
 				3BACA34B2CDD277D00856BC0 /* UserInput */,
 				3BACA32F2CDB977C00856BC0 /* GenerateNumber */,
 				3BACA32E2CDB947A00856BC0 /* main */,
@@ -95,6 +101,7 @@
 				3BACA32E2CDB947A00856BC0 /* main */,
 				3BACA32F2CDB977C00856BC0 /* GenerateNumber */,
 				3BACA34B2CDD277D00856BC0 /* UserInput */,
+				3BACA3562CDF136800856BC0 /* CheckInput */,
 			);
 			name = NumberBaseballGame;
 			packageProductDependencies = (
