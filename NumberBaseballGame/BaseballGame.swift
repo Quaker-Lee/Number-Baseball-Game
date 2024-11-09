@@ -23,16 +23,16 @@ class BaseballGame {
     // 게임 로직
     func start() {
         let gameNumber = randomNumbers()
-        print(gameNumber)
+        print(gameNumber) // 테스트를 위해 미리 정답 출력
         
         print("[Let's Play Baseball!]\n\n")
-        
         while true {
             
             print("\n[Put numbers]")
             //user input parts
             let input = readLine() ?? "" //유저 입력값 입력받음. 오류가 나서 nil이 들어오면 빈 문자열로 처리
             let numberArr = input.map { String($0) }.compactMap { Int($0) }
+            //코드설명
             //아래의 두 코드를 chaining해서 작성. 유저가 입력한 값을 String 배열로 바꾸고 그걸 다시 Int 배열로 바꿈.
             //compactMap을 사용하여 옵셔널을 벗기고 Nil은 삭제해버림
             //let stringArr = input.map { String($0) } - String 배열로 변경
@@ -49,7 +49,7 @@ class BaseballGame {
             var strike = 0
             var ball = 0
             
-            // 사용자가 입력한 숫자 순회. 게임 로직
+            // 사용자가 입력한 숫자 순회.
             for (index, number) in numberArr.enumerated() { //튜플로 인덱스와 값
                 //enumerated 메소드는 요소들의 인덱스와 값을 동시에 접근할 수 있게 해주는 메소드이다.
             
